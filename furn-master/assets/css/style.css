@@ -141,6 +141,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
+
 nav.navbar.bootsnav ul.nav > li > a {padding: 48px 25px;}
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color: #F4C320;}
 nav.navbar.bootsnav ul.nav > li.active>a {color: #F4C320;}
@@ -983,6 +984,8 @@ span.feature-review {margin-left: 10px;}
     resize: none;
     outline: none;
 }
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
@@ -995,4 +998,8 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
 }
+ul li.liop ul {
+    display: none;
+}
+ul li:hover body {background-color: red;}
 /*========================Thank you=================
