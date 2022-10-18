@@ -5,7 +5,7 @@
 ==================================== */
 
 /*==================================
-font-family: 'Roboto', sans-serif;
+font-family: 'Martel', sans-serif;
 ==================================== */
 
 
@@ -39,7 +39,7 @@ font-family: 'Roboto', sans-serif;
 	box-sizing:border-box;
 }
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Martel', serif;
 	font-size:16px;
 	color: black;
 	background: #3B5D4F;
@@ -59,7 +59,7 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#5f5b57;
+	color:black;
     font-size: 18px;
     font-weight: 500;
 }
@@ -114,11 +114,11 @@ nav.navbar.bootsnav {
     background-color: transparent;
     border-bottom: transparent;
 }
-.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #fff;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
+.wrap-sticky nav.navbar.bootsnav.sticked {background-color: #3B5D4F;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
-    color: white;
+    color: black;
     font-size: 24px;
     font-weight: 500;
     padding: 45px 0px;
@@ -303,7 +303,7 @@ ul.cart-list > li.total {
 .welcome-hero {
     position: relative;
     z-index: 1;
-    background: #f8f9fd;
+    background: #3B5D4F;
 }
 .header-area{position: absolute;top:0;left:0;width: 100%;z-index: 99;}
 .single-slide-item{
@@ -324,7 +324,7 @@ ul.cart-list > li.total {
     height: 920px;
 }
 .welcome-hero-txt h4 {
-    color: #998d80;
+    color: black;
     font-size: 24px;
     font-weight: 400;
 }
@@ -474,7 +474,7 @@ ul.cart-list > li.total {
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
-    color: #5f5b57;
+    color: black;
     margin: 25px 0 22px;
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -510,9 +510,9 @@ ul.cart-list > li.total {
     width: 118px;
     height: 40px;
     line-height: 40px;
-    color: #5f5b57;
+    color: black;
     background: transparent;
-    border: 1px solid #5f5b57;
+    border: 1px solid black;
     font-size: 14px;
     margin-top: 23px;
     -webkit-transition: 0.3s linear; 
@@ -523,8 +523,8 @@ ul.cart-list > li.total {
 }
 .single-populer-products:hover .btn-cart.welcome-add-cart.populer-products-btn {
     color: #fff;
-    background: #5f5b57;
-    border: 1px solid #5f5b57;
+    background: black;
+    border: 1px solid black;
 }
 
 /*-------------------------------------
@@ -632,13 +632,13 @@ p.arrival-review span {margin-right: 15px;}
     bottom:0px;
 }
 .single-new-arrival  h4 a{
-    color:#5f5b57;
+    color:black;
     font-size:16px;
     font-weight:500;
     margin:26px 0 12px;
 }
 .arrival-product-price{
-    color:#5f5b57;
+    color:black;
     font-size: 16px;
     font-weight: 400;
 }
@@ -721,11 +721,11 @@ span.spacial-feature-icon i {color:  #a9a9a9;}
 span.feature-review {margin-left: 10px;}
 .single-feature-txt p {font-size: 14px;}
 .single-feature-txt h3 a ,.single-blog-txt h2 a{
-    color: #5f5b57;
+    color: black;
     margin: 10px 0px 15px;
 }
 .single-feature-txt h5 {
-    color:  #5f5b57;
+    color:  black;
     font-weight:  400;
 }
 /*.single-feature-txt */
@@ -813,7 +813,7 @@ span.feature-review {margin-left: 10px;}
         9. Clients
 --------------------------------------*/
 .clients {
-    background: #f8f9fd;
+    background: #3B5D4F;
     display: flex;
     align-items: center;
     height: 220px;
@@ -963,29 +963,36 @@ span.feature-review {margin-left: 10px;}
 }
 .countinercontact{
     display: flex;
-    background-color: #3B5D4F;
     justify-content: center;
     align-items: center;
 }
 .miniblok{
-    padding: 20%;
+    margin: 5%;
+    padding: 2%;
+}
+#miniblok{
+    background-color: #F4C320;
+    text-align: center;
 }
 .inputborde{
     border-left: 0;
     border-right: 0;
     border-top: 0;
+    border-color: #000;
     background-color: transparent;
     resize: none;
     outline: none;
 }
-#miniblok{
-    background-color: #F4C320;
-    padding:   10%;
-    margin-right: 10%;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
 }
-#contactuss{
-    margin-bottom: 50px;
-    color: white;
+@media (max-width : 600px){
+    .countinercontact{
+        flex-direction: column;
+    }
+    #miniblok{
+        display: none;
+    }
 }
-
 /*========================Thank you=================
