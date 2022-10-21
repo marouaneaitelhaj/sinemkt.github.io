@@ -651,6 +651,8 @@ p.arrival-review span {margin-right: 15px;}
 #sofa-collection {
     position: relative;
     z-index: -1;
+    
+    padding-top: 50px;
 }
 .sofa-collection{
     position: relative;
