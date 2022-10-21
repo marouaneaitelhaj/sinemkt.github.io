@@ -797,7 +797,7 @@ span.feature-review {margin-left: 10px;}
 }
 .single-blog-txt h2 a{text-transform: initial;margin: 0 0 15px 0;}
 .single-blog-txt h3,.single-blog-txt h3 a {
-    color: #bcb7b2;
+    color: #5D5B58;
     font-size: 14px;
     font-weight: 400;
 }
@@ -868,7 +868,7 @@ span.feature-review {margin-left: 10px;}
 }
 .foot-email-box input[type="text"]{
     font-size: 14px;
-    color: #bcb7b2;
+    color: #5D5B58;
 }
 .foot-email-subscribe {
     position: absolute;
@@ -897,6 +897,7 @@ span.feature-review {margin-left: 10px;}
     display: flex;
     align-items: center;
     height: 154px;
+    margin-top: 50px;
 }
 .hm-footer-copyright p,.hm-footer-copyright p a {
     color: #1c3a56;
